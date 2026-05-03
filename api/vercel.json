@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/v1/roblox/:username",
+      "destination": "/api/roblox?username=:username"
+    }
+  ]
+}
